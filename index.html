@@ -1,0 +1,1128 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=1360">
+    <!-- 브라우저 뷰포트 너비를 1360px로 고정하여 페이지를 그리도록 설정 -->
+    <title>PlayDia</title>
+
+    <!-- favicon -->
+    <link rel="shortcut icon" href="./images/symbol.png" type="image/x-icon">
+
+    <!-- webfont 연결-->
+    <link rel="stylesheet" href="css/giants.css">
+    <link rel="stylesheet" href="css/waguri.css">
+    <link rel="stylesheet" href="css/suseongdotum.css">
+    <link rel="stylesheet" href="css/schoolsafetypuzzle.css">
+    <link rel="stylesheet" as="style" crossorigin
+        href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/static/pretendard.min.css">
+
+    <!-- css 연결-->
+    <link rel="stylesheet" href="css/style.css">
+
+    <!-- AOS 연결 -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
+    <!-- Link Swiper's CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.css">
+</head>
+
+<body>
+    <div id="wrap">
+        <!-- banner -->
+        <div id="banner">
+
+            <!-- header -->
+            <div class="header">
+                <h1 class="logo">
+                    <a href="#">
+                        <img src="./images/logo_s.svg" alt="logo">
+                    </a>
+                </h1>
+                <ul class="gnb">
+                    <li>
+                        <a href="#about">ABOUT US</a>
+                    </li>
+                    <li>
+                        <a href="#schedule">SCHEDULE</a>
+                    </li>
+                    <li>
+                        <a href="#goods">GOODS</a>
+                    </li>
+                    <li>
+                        <a href="#team">TEAM</a>
+                    </li>
+                    <li>
+                        <a href="#community">FAN</a>
+                    </li>
+                </ul>
+                <ul class="util">
+                    <li>
+                        <a href="#">LOGIN</a>
+                    </li>
+                    <li>
+                        <a href="#">JOIN</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="banner_text">
+                <p>
+                    <span>야구를</span>
+                </p>
+                <p>더 뜨겁게,</p>
+                <p>
+                    <span>팬들과</span>
+                </p>
+                <p>더 가깝게!</p>
+            </div>
+            <div class="swiper banner">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                        <img src="./images/mainbanner.jpg" alt="banner">
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="./images/lgtwins.jpg" alt="banner">
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="./images/hanhwaegles.jpg" alt="banner">
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="./images/ssglanders.jpg" alt="banner">
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="./images/samsunglions.jpg" alt="banner">
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="./images/ncdinos.jpg" alt="banner">
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="./images/ktwitz.jpg" alt="banner">
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="./images/lottegiants.jpg" alt="banner">
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="./images/kiatigers.jpg" alt="banner">
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="./images/doosanbears.jpg" alt="banner">
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="./images/kiwoomheros.jpg" alt="banner">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- banner -->
+
+        <!-- highlight -->
+        <div id="highlight">
+            <div class="highlight_title">
+                <h2>HIGHTLIGHT</h2>
+                <a href="#">더보기</a>
+            </div>
+            <div class="highlight_inner">
+                <ul class="card_up">
+                    <li data-aos="fade-up" data-aos-duration="800" data-aos-delay="0">
+                        <a href="https://youtu.be/zRjrI-bkHLo?si=mGik_KR1p2tr-ToV" target="_blank">
+                            <div class="img_box">
+                                <img src="./images/03.28_LOTTE_vs_SAMSUNG.jpg" alt="0328">
+                            </div>
+                            <p>
+                                [롯데자이언츠 vs 삼성라이온즈] 3.28(토) 야구 하이라이트 ㅣ 2026 KBO 리그
+                            </p>
+                        </a>
+                    </li>
+                    <li data-aos="fade-up" data-aos-duration="800" data-aos-delay="100">
+                        <a href="https://youtu.be/LaCm6zld944?si=3zaMfbjxmhujsPcC" target="_blank">
+                            <div class="img_box">
+                                <img src="./images/03.28_KIA_vs_SSG.jpg" alt="0328">
+                            </div>
+                            <p>
+                                [KIA타이거즈 vs SSG랜더스] 3.28(토) 야구 하이라이트 ㅣ 2026 KBO 리그
+                            </p>
+                        </a>
+                    </li>
+                </ul>
+                <ul class="card_down">
+                    <li data-aos="fade-up" data-aos-duration="800" data-aos-delay="200">
+                        <a href="https://youtu.be/qdaR6m5WF2c?si=7w7SF2riPhZr6GLr" target="_blank">
+                            <div class="img_box">
+                                <img src="./images/03.28_KIWOOM_vs_HANHWA.jpg" alt="0328">
+                            </div>
+                            <p>
+                                [키움히어로즈 vs 한화이글스] 3.28(토)
+                                <br>
+                                야구 하이라이트 ㅣ 2026 KBO 리그
+                            </p>
+                        </a>
+                    </li>
+                    <li data-aos="fade-up" data-aos-duration="800" data-aos-delay="300">
+                        <a href="https://youtu.be/7c4J9R1ySFI?si=kiQc6_xrG_1AkgZp" target="_blank">
+                            <div class="img_box">
+                                <img src="./images/03.28_KT_vs_LG.jpg" alt="0328">
+                            </div>
+                            <p>
+                                [KT위즈 vs LG트윈스] 3.28(토)
+                                <br>
+                                야구 하이라이트 ㅣ 2026 KBO 리그
+                            </p>
+                        </a>
+                    </li>
+                    <li data-aos="fade-up" data-aos-duration="800" data-aos-delay="400">
+                        <a href="https://youtu.be/jLVut8M1740?si=WOvxPeo3yB3syo9z" target="_blank">
+                            <div class="img_box">
+                                <img src="./images/03.28_DOOSAN_vs_NC.jpg" alt="0328">
+                            </div>
+                            <p>
+                                [두산베어스 vs NC다이노스] 3.28(토)
+                                <br>
+                                야구 하이라이트 ㅣ 2026 KBO 리그
+                            </p>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <!-- highlight -->
+
+        <!-- schedule -->
+        <div id="schedule">
+            <div class="sch_wrap">
+                <h2>SCHEDULE</h2>
+                <div>
+                    <div class="week" data-aos="fade-up" data-aos-duration="800" data-aos-delay="500">
+                        <ul class="day">
+                            <li><a href="#" class="active">TUE</a></li>
+                            <li><a href="#">WED</a></li>
+                            <li><a href="#">THU</a></li>
+                            <li><a href="#">FRI</a></li>
+                            <li><a href="#">SAT</a></li>
+                            <li><a href="#">SUN</a></li>
+                        </ul>
+                    </div>
+                    <div class="game_box">
+                        <ul class="game_list">
+                            <!-- 창원 -->
+                            <li data-aos="fade-up" data-aos-duration="800" data-aos-delay="600">
+                                <p class="place">창원 ㅣ 17:00</p>
+                                <span class="badge">경기예정</span>
+                                <div class="teams">
+                                    <img src="./images/doosanbears.svg" alt="teamlogo">
+                                    <p>VS</p>
+                                    <img src="./images/ncdinos.svg" alt="teamlogo">
+                                </div>
+                                <div class="players">
+                                    <p>
+                                        <span>선</span>
+                                        최민석
+                                    </p>
+                                    <p>
+                                        <span>선</span>
+                                        원종해
+                                    </p>
+                                </div>
+                                <div class="score"></div>
+                                <div class="btns">
+                                    <a href="#" class="btn blue">전략</a>
+                                    <a href="#" class="btn red">중계</a>
+                                </div>
+                            </li>
+
+                            <!-- 사직 -->
+                            <li data-aos="fade-up" data-aos-duration="800" data-aos-delay="700">
+                                <p class="place">사직 ㅣ 17:00</p>
+                                <span class="badge">경기예정</span>
+                                <div class="teams">
+                                    <img src="./images/samsunglions.svg" alt="teamlogo">
+                                    <p>VS</p>
+                                    <img src="./images/lottegiants.svg" alt="teamlogo">
+                                </div>
+                                <div class="players">
+                                    <p>
+                                        <span>선</span>
+                                        이승현
+                                    </p>
+                                    <p>
+                                        <span>선</span>
+                                        김진욱
+                                    </p>
+                                </div>
+                                <div class="score"></div>
+                                <div class="btns">
+                                    <a href="#" class="btn blue">전략</a>
+                                    <a href="#" class="btn red">중계</a>
+                                </div>
+                            </li>
+
+                            <!-- 광주 -->
+                            <li data-aos="fade-up" data-aos-duration="800" data-aos-delay="800">
+                                <p class="place">광주 ㅣ 17:00</p>
+                                <span class="badge">경기예정</span>
+                                <div class="teams">
+                                    <img src="./images/ktwitz.svg" alt="teamlogo">
+                                    <p>VS</p>
+                                    <img src="./images/kiatigers.svg" alt="teamlogo">
+                                </div>
+                                <div class="players">
+                                    <p>
+                                        <span>선</span>
+                                        오원석
+                                    </p>
+                                    <p>
+                                        <span>선</span>
+                                        양현종
+                                    </p>
+                                </div>
+                                <div class="score"></div>
+                                <div class="btns">
+                                    <a href="#" class="btn blue">전략</a>
+                                    <a href="#" class="btn red">중계</a>
+                                </div>
+                            </li>
+
+                            <!-- 문학 -->
+                            <li data-aos="fade-up" data-aos-duration="800" data-aos-delay="900">
+                                <p class="place">문학 ㅣ 17:00</p>
+                                <span class="badge">경기예정</span>
+                                <div class="teams">
+                                    <img src="./images/hanhwaeagles.svg" alt="teamlogo">
+                                    <p>VS</p>
+                                    <img src="./images/ssglanders.svg" alt="teamlogo">
+                                </div>
+                                <div class="players">
+                                    <p>
+                                        <span>선</span>
+                                        문동주
+                                    </p>
+                                    <p>
+                                        <span>선</span>
+                                        최민준
+                                    </p>
+                                </div>
+                                <div class="score"></div>
+                                <div class="btns">
+                                    <a href="#" class="btn blue">전략</a>
+                                    <a href="#" class="btn red">중계</a>
+                                </div>
+                            </li>
+
+                            <!-- 잠실 -->
+                            <li data-aos="fade-up" data-aos-duration="800" data-aos-delay="1000">
+                                <p class="place">잠실 ㅣ 14:00</p>
+                                <span class="badge-end">경기종료</span>
+                                <div class="teams">
+                                    <img src="./images/kiwoomheros.svg" alt="teamlogo">
+                                    <p>VS</p>
+                                    <img src="./images/lgtwins.svg" alt="teamlogo">
+                                </div>
+                                <div class="players">
+                                    <p>
+                                        <span>선</span>
+                                        정세영
+                                    </p>
+                                    <p>
+                                        <span>선</span>
+                                        웰스
+                                    </p>
+                                </div>
+                                <div class="score">
+                                    <span>1</span>
+                                    <span>3</span>
+                                </div>
+                                <div class="result_btn">
+                                    <a href="#" class="btn_red">결과보기</a>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- schedule -->
+
+        <!-- goods -->
+        <div id="goods">
+            <h2 class="goods_title">GOODS</h2>
+            <div class="goods">
+                <div class="main_goods">
+                    <div class="goods_imgbox01">
+                        <img src="./images/maingoods.jpeg" alt="goods">
+                    </div>
+                    <div class="goods_list">
+                        <p>패션잡화</p>
+                        <span>슬링백</span>
+                    </div>
+                    <p class="goods_text">
+                        가볍게 메기 좋은 형태라 일상에서 부담 없이 활용하기 좋습니다. 내부 수납 공간이 깔끔하게 나뉘어 있어 소지품을 정리하기에도 편합니다.
+                        스트랩이 넓은 편이라 안정적으로 잡아줘서
+                        <br>
+                        착용감도 편안해 간단한 외출이나 가벼운 활동에 잘 어울리는 아이템입니다.
+                    </p>
+                </div>
+                <div class="aside">
+                    <div class="box1">
+                        <div class="goods_imgbox02">
+                            <img src="./images/goods1.jpg" alt="goods">
+                        </div>
+                        <div class="goods_list">
+                            <p>팬굿즈</p>
+                            <span>NFC 간판 키링</span>
+                        </div>
+                        <p class="goods_text">
+                            야구장의 열기를 담은 전광판 디자인의 NFC 키링으로 팬과 야구를 이어주는 특별한 굿즈입니다.
+                            <br>
+                            또한 간편한 사용법으로 누구나 쉽게 활용할 수 있습니다.NFC 태그를 하면 KBO 공식 유튜브(사이트)로 넘어가 일상에서도 야구의 순간순간들과 함께할 수 있습니다.
+                        </p>
+                    </div>
+                    <div class="box2">
+                        <div class="goods_imgbox02">
+                            <img src="./images/goods2.jpg" alt="goods">
+                        </div>
+                        <div class="goods_list">
+                            <p>팬굿즈</p>
+                            <span>NFC 교통카드 키링</span>
+                        </div>
+                        <p class="goods_text">
+                            야구장의 열기를 담은 전광판 디자인의 NFC 키링으로 팬과 야구를 이어주는 특별한 굿즈입니다.
+                            <br>
+                            또한 간편한 사용법으로 누구나 쉽게 활용할 수 있습니다.NFC 태그를 하면 KBO 공식 유튜브(사이트)로 넘어가 일상에서도 야구의 순간순간들과 함께할 수 있습니다.
+                        </p>
+                    </div>
+                    <div class="box3">
+                        <div class="goods_imgbox02">
+                            <img src="./images/goods3.jpg" alt="goods">
+                        </div>
+                        <div class="goods_list">
+                            <p>패션잡화</p>
+                            <span>PlayDia 카라비너</span>
+                        </div>
+                        <p class="goods_text">
+                            전체적으로 심플하면서도 포인트가 살아있는 아크릴 카라비너입니다.
+                            가방이나 키링에 자연스럽게
+                            <br>
+                            어우러져 일상에서 부담 없이 사용할 수 있습니다.탈부착이 간편한만큼 포인트 아이템으로서의 활용도가 높고, 과하게 크지 않은
+                            편이기에 가볍게 걸고 다니기에도 좋습니다.
+                        </p>
+                    </div>
+                    <div class="box4">
+                        <div class="goods_imgbox02">
+                            <img src="./images/goods4.jpg" alt="goods">
+                        </div>
+                        <div class="goods_list">
+                            <p>패션잡화</p>
+                            <span>모자</span>
+                        </div>
+                        <p class="goods_text">
+                            베이지와 네이비 조합이 부담 없이 무난하게 잘 어울리는 야구 모자입니다. 전면에 로고 자수가 적당히
+                            <br>깔끔하면서도 포인트처럼 큼직하게 들어가 있어 전체적으로 심심하지 않게끔 잘 잡아줍니다. 가볍게
+                            <br>
+                            쓰기 좋고, 일상에서도 무난하게 쓰기 좋은 아이템입니다.
+                        </p>
+                    </div>
+                    <div class="box5">
+                        <div class="goods_imgbox02">
+                            <img src="./images/goods5.jpeg" alt="goods">
+                        </div>
+                        <div class="goods_list">
+                            <p>패션잡화</p>
+                            <span>스포츠백</span>
+                        </div>
+                        <p class="goods_text">
+                            야구공에서 볼 수 있는 스티치 디테일과 그래픽이 어우러진 디자인의 스포츠백입니다. 전체적으로 깔끔한 컬러감이라 어떤 스타일에도 무난하게 잘 어울립니다. 수납 공간이
+                            넉넉해 운동용이나 짐을 챙길 때 편하게 사용할 수 있으며, 손잡이 외에도
+                            어깨에 맬 수 있는 스트랩이 함께 있어 상황에 따라 다양하게
+                            <br>
+                            들고 다니기 좋습니다.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- goods -->
+
+        <!-- news -->
+        <div id="news">
+            <div class="news_title">
+                <h2>NEWS</h2>
+                <a href="#">더보기</a>
+            </div>
+            <div class="news_card" data-aos="fade-right" data-aos-duration="1000">
+
+                <!-- Swiper -->
+                <div class="swiper news">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide blur">
+                            <div class="news_content">
+                                <div class="tag">
+                                    <p>KBO</p>
+                                </div>
+                                <p class="title">
+                                    '굿바이, 잠실'
+                                    <br>
+                                    2026 KBO 올스타전
+                                    <br>
+                                    7월 잠실야구장서 개최
+                                </p>
+                            </div>
+                            <div class="thumb">
+                                <img src="./images/news1.jpg" alt="news">
+                            </div>
+                            <div class="number">
+                                1
+                            </div>
+                        </div>
+
+                        <div class="swiper-slide blur">
+                            <div class="news_content">
+                                <div class="tag">
+                                    <p>KBO</p>
+                                </div>
+                                <p class="title">
+                                    KBO, 크록스와 협업...
+                                    <br>
+                                    '지비츠 참' 출시
+                                </p>
+                            </div>
+                            <div class="thumb">
+                                <img src="./images/news2.jpg" alt="news">
+                            </div>
+                            <div class="number">
+                                2
+                            </div>
+                        </div>
+
+                        <div class="swiper-slide blur">
+                            <div class="news_content">
+                                <div class="tag">
+                                    <p>롯데자이언츠</p>
+                                </div>
+                                <p class="title">
+                                    조지훈 단장 20주년 기념
+                                    <br>
+                                    롯데, GO HIGH
+                                    <br>
+                                    열광응원 시리즈 개최
+                                </p>
+                            </div>
+                            <div class="thumb">
+                                <img src="./images/news3.jpg" alt="news">
+                            </div>
+                            <div class="number">
+                                3
+                            </div>
+                        </div>
+
+                        <div class="swiper-slide blur">
+                            <div class="news_content">
+                                <div class="tag">
+                                    <p>삼성라이온즈</p>
+                                </div>
+                                <p class="title">
+                                    삼성, KBO리그
+                                    <br>
+                                    최초 3천승 위업
+                                </p>
+                            </div>
+                            <div class="thumb">
+                                <img src="./images/news4.jpg" alt="news">
+                            </div>
+                            <div class="number">
+                                4
+                            </div>
+                        </div>
+
+                        <div class="swiper-slide blur">
+                            <div class="news_content">
+                                <div class="tag">
+                                    <p>롯데자이언츠</p>
+                                </div>
+                                <p class="title">
+                                    "악착같이 던졌다"
+                                    <br>
+                                    김진욱 환상의 8이닝,
+                                    <br>
+                                    7연패 끊은 난세 영웅
+                                </p>
+                            </div>
+                            <div class="thumb">
+                                <img src="./images/news5.jpg" alt="news">
+                            </div>
+                            <div class="number">
+                                5
+                            </div>
+                        </div>
+
+                        <div class="swiper-slide blur">
+                            <div class="news_content">
+                                <div class="tag">
+                                    <p>LG트윈스</p>
+                                </div>
+                                <p class="title">
+                                    LG, 0:4 → 6:4
+                                    <br>
+                                    짜릿한 역전승
+                                    <br>
+                                    오스틴, 4안타 2홈런 대폭발
+                                </p>
+                            </div>
+                            <div class="thumb">
+                                <img src="./images/news6.jpg" alt="news">
+                            </div>
+                            <div class="number">
+                                6
+                            </div>
+                        </div>
+
+                        <div class="swiper-slide blur">
+                            <div class="news_content">
+                                <div class="tag">
+                                    <p>KBO</p>
+                                </div>
+                                <p class="title">
+                                    노동절 공휴일 지정에 따라
+                                    <br>
+                                    5월 1일 KBO리그
+                                    <br>
+                                    경기 시간 변경
+                                </p>
+                            </div>
+                            <div class="thumb">
+                                <img src="./images/news7.jpg" alt="news">
+                            </div>
+                            <div class="number">
+                                7
+                            </div>
+                        </div>
+
+                        <div class="swiper-slide blur">
+                            <div class="news_content">
+                                <div class="tag">
+                                    <p>롯데자이언츠</p>
+                                </div>
+                                <p class="title">
+                                    "악착같이 던졌다"
+                                    <br>
+                                    김진욱 환상의 8이닝,
+                                    <br>
+                                    7연패 끊은 난세 영웅
+                                </p>
+                            </div>
+                            <div class="thumb">
+                                <img src="./images/news5.jpg" alt="news">
+                            </div>
+                            <div class="number">
+                                5
+                            </div>
+                        </div>
+
+                        <div class="swiper-slide blur">
+                            <div class="news_content">
+                                <div class="tag">
+                                    <p>LG트윈스</p>
+                                </div>
+                                <p class="title">
+                                    LG, 0:4 → 6:4
+                                    <br>
+                                    짜릿한 역전승
+                                    <br>
+                                    오스틴, 4안타 2홈런 대폭발
+                                </p>
+                            </div>
+                            <div class="thumb">
+                                <img src="./images/news6.jpg" alt="news">
+                            </div>
+                            <div class="number">
+                                6
+                            </div>
+                        </div>
+
+                        <div class="swiper-slide blur">
+                            <div class="news_content">
+                                <div class="tag">
+                                    <p>KBO</p>
+                                </div>
+                                <p class="title">
+                                    노동절 공휴일 지정에 따라
+                                    <br>
+                                    5월 1일 KBO리그
+                                    <br>
+                                    경기 시간 변경
+                                </p>
+                            </div>
+                            <div class="thumb">
+                                <img src="./images/news7.jpg" alt="news">
+                            </div>
+                            <div class="number">
+                                7
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- team -->
+        <div id="team">
+            <div class="team_wrap">
+                <h2>TEAM</h2>
+                <div class="team_list">
+                    <div class="team_logo1">
+                        <a href="https://www.lgtwins.com/" target="_blank" data-aos="fade-up" data-aos-duration="800"
+                            data-aos-delay="0">
+                            <img src="./images/lgtwins.svg" alt="teamlogo">
+                        </a>
+                        <a href="https://www.hanwhaeagles.co.kr/index.do" target="_blank" data-aos="fade-up"
+                            data-aos-duration="800" data-aos-delay="100">
+                            <img src="./images/hanhwaeagles.svg" alt="teamlogo">
+                        </a>
+                        <a href="https://www.ssglanders.com/main" target="_blank" data-aos="fade-up"
+                            data-aos-duration="800" data-aos-delay="200">
+                            <img src="./images/ssglanders.svg" alt="teamlogo">
+                        </a>
+                        <a href="https://www.samsunglions.com/" target="_blank" data-aos="fade-up"
+                            data-aos-duration="800" data-aos-delay="300">
+                            <img src="./images/samsunglions.svg" alt="teamlogo">
+                        </a>
+                        <a href="https://www.ncdinos.com/" target="_blank" data-aos="fade-up" data-aos-duration="800"
+                            data-aos-delay="400">
+                            <img src="./images/ncdinos.svg" alt="teamlogo">
+                        </a>
+                    </div>
+                    <div class="team_logo2">
+                        <a href="https://www.ktwiz.co.kr/" target="_blank" data-aos="fade-up" data-aos-duration="800"
+                            data-aos-delay="500">
+                            <img src="./images/ktwitz.svg" alt="teamlogo">
+                        </a>
+                        <a href="https://www.giantsclub.com/html/" target="_blank" data-aos="fade-up"
+                            data-aos-duration="800" data-aos-delay="600">
+                            <img src="./images/lottegiants.svg" alt="teamlogo">
+                        </a>
+                        <a href="https://tigers.co.kr/" target="_blank" data-aos="fade-up" data-aos-duration="800"
+                            data-aos-delay="700">
+                            <img src="./images/kiatigers.svg" alt="teamlogo">
+                        </a>
+                        <a href="https://www.doosanbears.com/" target="_blank" data-aos="fade-up"
+                            data-aos-duration="800" data-aos-delay="800">
+                            <img src="./images/doosanbears.svg" alt="teamlogo">
+                        </a>
+                        <a href="https://heroesbaseball.co.kr/index.do" target="_blank" data-aos="fade-up"
+                            data-aos-duration="800" data-aos-delay="900">
+                            <img src="./images/kiwoomheros.svg" alt="teamlogo">
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- team -->
+
+        <!-- community -->
+        <div id="community">
+            <h2>FAN COMMUNITY</h2>
+            <div class="com_wrap">
+                <div class="com_main" data-aos="fade-up" data-aos-duration="800" data-aos-delay="0">
+                    <div class="contents">
+                        <div class="content1">
+
+                            <!-- 게시물1 -->
+                            <div class="post">
+                                <a href="#">
+                                    <div class="com_content">
+                                        <div>
+                                            <div class="user">
+                                                <img src="./images/Ellipse1.svg" alt="profile">
+                                                <p class="id">@miiro_615</p>
+                                            </div>
+
+                                            <p class="text">
+                                                아무리 8이닝 1실점으로 막은 신이라고 해도
+                                                <br>
+                                                사진은 제대로 찍어야 되는 거 아닌가?
+                                                <br>
+                                                김진욱은 무슨, 빛 밖에 안 보이는데 이건 좀;;;;
+                                            </p>
+
+                                            <p class="meta">
+                                                좋아요 72 · 댓글 5
+                                            </p>
+                                        </div>
+
+                                        <div class="post_img">
+                                            <img src="./images/15.svg" alt="post_img">
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+
+                            <!-- 게시물2 -->
+                            <div class="post">
+                                <a href="#">
+                                    <div class="com_content">
+                                        <div>
+                                            <div class="user">
+                                                <img src="./images/Ellipse2.svg" alt="profile">
+                                                <p class="id">@miiro_615</p>
+                                            </div>
+
+                                            <p class="text">
+                                                홈 개막 기념으로 XX이랑 벤클하고싶은건 우리인데
+                                                <br>
+                                                왜 당신들끼리 벤클을 하고있나요? 아니면 우리도
+                                                <br>
+                                                내려오라는 무언의 시그널이야?
+                                            </p>
+
+                                            <p class="meta">
+                                                좋아요 223 · 댓글 15
+                                            </p>
+                                        </div>
+
+                                        <div class="post_img">
+                                            <img src="./images/bc.svg" alt="post_img">
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+
+                            <!-- 게시물3 -->
+                            <div class="post">
+                                <a href="#">
+                                    <div class="com_content">
+                                        <div>
+                                            <div class="user">
+                                                <img src="./images/Ellipse3.svg" alt="profile">
+                                                <p class="id">@himenent</p>
+                                            </div>
+
+                                            <p class="text">
+                                                이분 직관 승률 100%라는데??
+                                                <br>
+                                                당장 폴대에 묶게 이리와보세요 배우님
+                                                <br>
+                                                제발 XX 좀 살려주세요......
+                                            </p>
+
+                                            <p class="meta">
+                                                좋아요 604 · 댓글 0
+                                            </p>
+                                        </div>
+
+                                        <div class="post_img">
+                                            <img src="./images/min.svg" alt="post_img">
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+
+                        <div class="content2">
+
+                            <!-- 게시물4 -->
+                            <div class="post">
+                                <a href="#">
+                                    <div class="com_content">
+                                        <div>
+                                            <div class="user">
+                                                <img src="./images/Ellipse4.svg" alt="profile">
+                                                <p class="id">@getbluegoya</p>
+                                            </div>
+
+                                            <p class="text">
+                                                베네수엘라에게 8대5로 패하면서
+                                                <br>
+                                                일본 첫 WBC 8강 탈락... 😯😯
+                                                <br>
+                                                ㄹㅇ 충격인데
+                                            </p>
+
+                                            <p class="meta">
+                                                좋아요 27 · 댓글 2
+                                            </p>
+                                        </div>
+
+                                        <div class="post_img">
+                                            <img src="./images/wbc8.svg" alt="post_img">
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+
+                            <!-- 게시물5 -->
+                            <div class="post">
+                                <a href="#">
+                                    <div class="com_content">
+                                        <div>
+                                            <div class="user">
+                                                <img src="./images/Ellipse5.svg" alt="profile">
+                                                <p class="id">@On_506_</p>
+                                            </div>
+
+                                            <p class="text">
+                                                #team롯두기
+                                                <br>
+                                                동반승리 가자 역전 당하면 안되는거야
+                                                <br>
+                                                내일은 쉽게 이겨보자 제발
+                                            </p>
+
+                                            <p class="meta">
+                                                좋아요 23 · 댓글 5
+                                            </p>
+                                        </div>
+
+                                        <div class="post_img">
+                                            <img src="./images/lottedoosankia.svg" alt="post_img">
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+
+                            <!-- 게시물6 -->
+                            <div class="post">
+                                <a href="#">
+                                    <div class="com_content">
+                                        <div>
+                                            <div class="user">
+                                                <img src="./images/Ellipse6.svg" alt="profile">
+                                                <p class="id">@thsghdud_33</p>
+                                            </div>
+
+                                            <p class="text">
+                                                진짜 개웃겨 세상 평온한 이 얼굴로 성격 개급해서
+                                                <br>
+                                                심판들 뒤에서 얘기 엿듣고 2루가서 야무지게
+                                                <br>
+                                                세레머니까지 함ㅋㅋㅋㅋㅋㅋㅋㅋ
+                                            </p>
+
+                                            <p class="meta">
+                                                좋아요 849 · 댓글 3
+                                            </p>
+                                        </div>
+
+                                        <div class="post_img">
+                                            <img src="./images/hoyoung.svg" alt="post_img">
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="add">
+                        <a href="#">
+                            <p>
+                                더보기
+                            </p>
+                        </a>
+                    </div>
+                </div>
+                <div class="com_btn" data-aos="fade-up" data-aos-duration="800" data-aos-delay="100">
+                    <div class="diary">
+                        <a href="#">
+                            <p class="btn_text">
+                                Fan Diary
+                            </p>
+                            <img src="./images/free-icon-diary-3127361.png" alt="btn_img">
+                        </a>
+                    </div>
+                    <div class="lifestyle">
+                        <a href="#">
+                            <p class="btn_text">
+                                Fan Lifrstyle
+                            </p>
+                            <img src="./images/free-icon-lifestyle-8382827.png" alt="btn_img">
+                        </a>
+                    </div>
+                    <div class="network">
+                        <a href="#">
+                            <p class="btn_text">
+                                Fan Network
+                            </p>
+                            <img src="./images/free-icon-social-media-2593500.png" alt="btn_img">
+                        </a>
+                    </div>
+                    <div class="collection">
+                        <a href="#">
+                            <p class="btn_text">
+                                Fan Collection
+                            </p>
+                            <img src="./images/free-icon-app-store-5939382.png" alt="btn_img">
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- community -->
+
+        <!-- notice -->
+        <div id="notice">
+            <h2>NOTICE</h2>
+
+            <div data-aos="fade-right" data-aos-duration="1000">
+                <!-- Swiper -->
+                <div class="swiper notice">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+                            <a href="#">
+                                <img src="./images/notice1.jpg" alt="notice">
+                            </a>
+                        </div>
+                        <div class="swiper-slide">
+                            <a href="#">
+                                <img src="./images/notice2.jpg" alt="notice">
+                            </a>
+                        </div>
+                        <div class="swiper-slide">
+                            <a href="#">
+                                <img src="./images/notice3.jpg" alt="notice">
+                            </a>
+                        </div>
+                        <div class="swiper-slide">
+                            <a href="#">
+                                <img src="./images/notice4.jpg" alt="notice">
+                            </a>
+                        </div>
+                        <div class="swiper-slide">
+                            <a href="#">
+                                <img src="./images/notice5.jpg" alt="notice">
+                            </a>
+                        </div>
+                        <div class="swiper-slide">
+                            <a href="#">
+                                <img src="./images/notice6.jpg" alt="notice">
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- notice -->
+
+        <!-- about -->
+        <div id="about">
+            <div class="about_wrap">
+                <h2>ABOUT US</h2>
+                <div class="box_wrap">
+                    <div class="ab_box1" data-aos="fade-left" data-aos-duration="1000">
+                        <p class="ab_main">
+                            <span>#</span>
+                            야구로 채운 시간
+                        </p>
+                        <p class="ab_text">
+                            야구를 좋아하는 사람들의 시간이 쌓이고, 그 시간이
+                            <br>
+                            쌓인 만큼의 다양한 추억까지도 함께 쌓이는 곳.
+                        </p>
+                    </div>
+                    <div class="ab_box2" data-aos="fade-left" data-aos-duration="2000">
+                        <p class="ab_main">
+                            <span>#</span>
+                            다시 꺼내볼 순간
+                        </p>
+                        <p class="ab_text">
+                            추억으로 남아있는 각자의 경험이 모여 하나의
+                            <br>
+                            흐름이 되고, 그 안에서 또 다른 이야기가 이어지도록.
+                        </p>
+                    </div>
+                    <div class="ab_box3" data-aos="fade-left" data-aos-duration="3000">
+                        <p class="ab_main">
+                            <span>#</span>
+                            같은 날의 다른 이야기
+                        </p>
+                        <p class="ab_text">
+                            그 날의 분위기나 감정, 그리고 개개인의
+                            <br>
+                            추억까지 남아고 공유할 수 있는 공간.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- about -->
+
+        <!-- footer -->
+        <div id="footer">
+            <div class="footer_wrap">
+                <img src="./images/footer_logo.svg" alt="logo">
+                <div class="info">
+                    <ul class="info_link">
+                        <li>
+                            <a href="#">이용약관</a>
+                        </li>
+                        <li>
+                            <a href="#">개인정보처리방침</a>
+                        </li>
+                        <li>
+                            <a href="#">고객문의</a>
+                        </li>
+                    </ul>
+                    <p class="copy">
+                        Copyrightⓒ PlayDia, All Rights Reserved.
+                    </p>
+                </div>
+                <ul class="icon">
+                    <li>
+                        <a href="#">
+                            <img src="./images/twitter.png" alt="icon">
+                        </a>
+                        <a href="#">
+                            <img src="./images/instagram.png" alt="icon">
+                        </a>
+                        <a href="#">
+                            <img src="./images/youtube.png" alt="icon">
+                        </a>
+                    </li>
+                </ul>
+            </div>
+
+        </div>
+        <!-- footer -->
+    </div>
+
+
+    <!-- Swiper JS -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.js"></script>
+
+    <!-- AOS 적용 -->
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+
+    <!-- Initialize Swiper -->
+    <script>
+        // aos 적용
+        AOS.init();
+
+        // swiper slide
+        var swiper = new Swiper(".banner", {
+            slidesPerView: 1,
+            autoplay: { // 자동 슬라이드(false = 비활성화)
+                delay: 3500, // 시간 설정
+                disableOnInteraction: false, // false = 스와이프 후 자동 재생
+            },
+            loop: true
+        });
+
+        var swiper = new Swiper(".news", {
+            slidesPerView: 7,
+            spaceBetween: 30,
+            pagination: {
+                el: ".news .swiper-pagination",
+                clickable: true,
+            },
+        });
+
+        var swiper = new Swiper(".notice", {
+            slidesPerView: 5,
+            spaceBetween: 30,
+            pagination: {
+                el: ".notice .swiper-pagination",
+                clickable: true,
+            },
+        });
+    </script>
+
+</body>
+
+</html>
